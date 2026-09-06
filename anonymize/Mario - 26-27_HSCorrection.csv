@@ -1,0 +1,683 @@
+Note: Enter all user information here and select role in following columns,,,"Note: To define a user's role, please input '1' in the corresponding cell in the role column if the user works in that role. A user can have multiple roles, except student can only be in student role.",,,,,"Note: To assign users to students, please input the user's email address in the corresponding cell in the role column. To add multiple users to a student, place ' | ' in between emails.",,,,,"Please put the number only. For UK schools, put the year level number.",Date format: MM/DD/YYYY,Please note this is visible to the student and all staff working with the student in MARIO,Please note this is visible to the student and all staff working with the student in MARIO,Please note this is visible to the student and all staff working with the student in MARIO,Note: Status must be the value 0 (inactive) or 1 (active). No need to use this column when adding new users.,"Note: Tiers decides which school level a NON-student user is saved to: MS, ES or Both. Students are placed automatically by GradeLevel — leave Tiers empty for student rows.",
+First Name,Last Name,Email,Admin Role,Teacher Role,Counselor Role,General ED Teacher Role,Assistant Role,Student Role,Assigned Teacher Email(s),Assigned Counselor Email(s),Assigned General Ed Teacher Email(s),Assigned Assistant Email(s),Assigned Suppport Teacher Email(s),GradeLevel,Date of Birth,MTSS Tier,Note,HealthNote,Status,Tiers
+Cindy,BAO,21657@students.isb.ac.th,,,,,,1,loretoa@isb.ac.th | miokc@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Hannah,BUSH,19674@students.isb.ac.th,,,,,,1,loretoa@isb.ac.th | miokc@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Yi Jia,CHEN,22718@students.isb.ac.th,,,,,,1,loretoa@isb.ac.th | miokc@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Sebastien,CHUA,22314@students.isb.ac.th,,,,,,1,loretoa@isb.ac.th | miokc@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Elianna,GRAN,24352@students.isb.ac.th,,,,,,1,loretoa@isb.ac.th | miokc@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Theonie Smaradewi,HADI,23753@students.isb.ac.th,,,,,,1,loretoa@isb.ac.th | miokc@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Rory,HSU,24408@students.isb.ac.th,,,,,,1,loretoa@isb.ac.th | miokc@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Hudson,JARRIN,23670@students.isb.ac.th,,,,,,1,loretoa@isb.ac.th | miokc@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Rihoo,KIM,22612@students.isb.ac.th,,,,,,1,loretoa@isb.ac.th | miokc@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Gavin,SANGUTHAI,20197@students.isb.ac.th,,,,,,1,loretoa@isb.ac.th | miokc@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Tyme,WUTTICHAROENWONG,21923@students.isb.ac.th,,,,,,1,loretoa@isb.ac.th | miokc@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Min Hsuan,YU,23275@students.isb.ac.th,,,,,,1,loretoa@isb.ac.th | miokc@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Nichchanat,BERG,24099@students.isb.ac.th,,,,,,1,cristic@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Teagan,BOSTIC,23319@students.isb.ac.th,,,,,,1,cristic@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Albert,CHAN,21453@students.isb.ac.th,,,,,,1,cristic@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Bheera,CHOTIWATTANAPHAN,22394@students.isb.ac.th,,,,,,1,cristic@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Vivian,DOXTATER,24064@students.isb.ac.th,,,,,,1,cristic@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Kay Thari,HAN THAR,23833@students.isb.ac.th,,,,,,1,cristic@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Kajorn,KAJORNPRASART,20213@students.isb.ac.th,,,,,,1,cristic@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Leticia,PEREIRA MAYER,20270@students.isb.ac.th,,,,,,1,cristic@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Nathur,RITTIPAT,24512@students.isb.ac.th,,,,,,1,cristic@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Clayton (Cj),SUSSMAN,24621@students.isb.ac.th,,,,,,1,cristic@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Zhexian,YI,23509@students.isb.ac.th,,,,,,1,cristic@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Natthaya,ARIYAKHAGORN,21405@students.isb.ac.th,,,,,,1,madalinac@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Dayyann,DHARAMSEY,19667@students.isb.ac.th,,,,,,1,madalinac@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Emily,FAN,22386@students.isb.ac.th,,,,,,1,madalinac@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Eshkar,GILAD,24044@students.isb.ac.th,,,,,,1,madalinac@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Sooro,KIM,23161@students.isb.ac.th,,,,,,1,madalinac@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Jonah,MARKS,21778@students.isb.ac.th,,,,,,1,madalinac@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Diana,NADEZHDINA,24577@students.isb.ac.th,,,,,,1,madalinac@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Nitaan,NIMSOMBOON,20245@students.isb.ac.th,,,,,,1,madalinac@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Selah,PHILLIPS,22139@students.isb.ac.th,,,,,,1,madalinac@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Nichapha,PREYAPANICH,21222@students.isb.ac.th,,,,,,1,madalinac@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Drake,RIVERA,21302@students.isb.ac.th,,,,,,1,madalinac@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Zhengyu,XIE,24215@students.isb.ac.th,,,,,,1,madalinac@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Cozette,BARTLETT,23236@students.isb.ac.th,,,,,,1,andrewg@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Wilson,CHENG,23107@students.isb.ac.th,,,,,,1,andrewg@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Circe,CHRISTOFF,24443@students.isb.ac.th,,,,,,1,andrewg@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Emrick,DOMINGUEZ,23717@students.isb.ac.th,,,,,,1,andrewg@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Varvara,KORMILITSYNA,20124@students.isb.ac.th,,,,,,1,andrewg@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Varada,LEEKANCHANAKORN,21924@students.isb.ac.th,,,,,,1,andrewg@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Nonnathee,LERTKIATDAMRONG,24310@students.isb.ac.th,,,,,,1,andrewg@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Navin,LUENGNARUEMITCHAI,21926@students.isb.ac.th,,,,,,1,andrewg@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Ansley,NORTHBROOK,21654@students.isb.ac.th,,,,,,1,andrewg@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Yali,SLUTZKY,21153@students.isb.ac.th,,,,,,1,andrewg@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Yiyang,XUE,22660@students.isb.ac.th,,,,,,1,andrewg@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Frieda,BAILEY,19690@students.isb.ac.th,,,,,,1,davidgr@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Hongxi,GE,24433@students.isb.ac.th,,,,,,1,davidgr@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Nawat,JAIPETCH,19604@students.isb.ac.th,,,,,,1,davidgr@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Archer,JOHNSTON,22334@students.isb.ac.th,,,,,,1,davidgr@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Katherine,KARABANOV,22322@students.isb.ac.th,,,,,,1,davidgr@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Riho,KOSO,21879@students.isb.ac.th,,,,,,1,davidgr@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Xianjia,LI,22632@students.isb.ac.th,,,,,,1,davidgr@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Mathilda,MAGIN,24420@students.isb.ac.th,,,,,,1,davidgr@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Vaughn,SEELY,24022@students.isb.ac.th,,,,,,1,davidgr@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Akira,SRIPIAN,23083@students.isb.ac.th,,,,,,1,davidgr@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Ziyi,YE,22992@students.isb.ac.th,,,,,,1,davidgr@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Singha,BORRISUTTANAKUL,23365@students.isb.ac.th,,,,,,1,granth@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Jiwon,HONG,24037@students.isb.ac.th,,,,,,1,granth@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Aryan,JAIN,24237@students.isb.ac.th,,,,,,1,granth@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Stella,JARRIN,23671@students.isb.ac.th,,,,,,1,granth@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Alynda,KOSAIPOLKUL,20371@students.isb.ac.th,,,,,,1,granth@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Leonardo Schlindwein,KREMER,24095@students.isb.ac.th,,,,,,1,granth@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Yuka,NAKAJIMA,23740@students.isb.ac.th,,,,,,1,granth@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Htet,OO,22809@students.isb.ac.th,,,,,,1,granth@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Jingyao,QI,24612@students.isb.ac.th,,,,,,1,granth@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Tsz Yuen,SHEN,21117@students.isb.ac.th,,,,,,1,granth@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Hanxiang,TONG,22720@students.isb.ac.th,,,,,,1,granth@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Austin,ALTMAN,22103@students.isb.ac.th,,,,,,1,lauriej@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Sophia,BEAUDIN,24156@students.isb.ac.th,,,,,,1,lauriej@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Jamie-Leigh,CHANG,24100@students.isb.ac.th,,,,,,1,lauriej@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Joseph,CHAYAVICHITSILP,22087@students.isb.ac.th,,,,,,1,lauriej@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Maxwell,KONDITI,23984@students.isb.ac.th,,,,,,1,lauriej@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Fatimah,MAKEN,23570@students.isb.ac.th,,,,,,1,lauriej@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Lana,MCHALE,21635@students.isb.ac.th,,,,,,1,lauriej@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Pete,SETTAPANICH,22032@students.isb.ac.th,,,,,,1,lauriej@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Anachorn,THANVARACHORN,21336@students.isb.ac.th,,,,,,1,lauriej@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Hyukjoon,WOO,23074@students.isb.ac.th,,,,,,1,lauriej@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Mengxuan,WU,23766@students.isb.ac.th,,,,,,1,lauriej@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Fengshuo,YANG,24335@students.isb.ac.th,,,,,,1,lauriej@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Rynnden,ABBOTT,22997@students.isb.ac.th,,,,,,1,justink@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Worachot,CHOTJITISATE,20714@students.isb.ac.th,,,,,,1,justink@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Cole,GORDON,23251@students.isb.ac.th,,,,,,1,justink@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Emma,PERLAKI,20514@students.isb.ac.th,,,,,,1,justink@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Adienna,PURVES,23666@students.isb.ac.th,,,,,,1,justink@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Evan,RUNDLETT,23403@students.isb.ac.th,,,,,,1,justink@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Nana,SHIRAISHI,24029@students.isb.ac.th,,,,,,1,justink@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Irene,SIRIMONGKOLKITTI,20370@students.isb.ac.th,,,,,,1,justink@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Tohko,TANABE,23114@students.isb.ac.th,,,,,,1,justink@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Chira,TANTIBUNDHIT,22086@students.isb.ac.th,,,,,,1,justink@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Marcel Amartya,TRIPATHI,24233@students.isb.ac.th,,,,,,1,justink@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Shixin,WANG,20476@students.isb.ac.th,,,,,,1,justink@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Yun Yun,CHAN,21706@students.isb.ac.th,,,,,,1,nathanm@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Chutikarn,DONG,20616@students.isb.ac.th,,,,,,1,nathanm@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Dorothy,DOXTATER,24065@students.isb.ac.th,,,,,,1,nathanm@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Zachary,FITZGERALD,23576@students.isb.ac.th,,,,,,1,nathanm@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Boonya,LOHWONGWATANA,23368@students.isb.ac.th,,,,,,1,nathanm@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Lounes,NNAFIE,24179@students.isb.ac.th,,,,,,1,nathanm@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Yousun,PARK,24573@students.isb.ac.th,,,,,,1,nathanm@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+William,PONGVITAYAPANU MOFFAT,19579@students.isb.ac.th,,,,,,1,nathanm@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Siri,PRACHAYAKUL,22431@students.isb.ac.th,,,,,,1,nathanm@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Josephine,SNOOK,19693@students.isb.ac.th,,,,,,1,nathanm@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Bhone Myat,THU,24086@students.isb.ac.th,,,,,,1,nathanm@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Kritin,VONGRUNGROT,23373@students.isb.ac.th,,,,,,1,nathanm@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Pada,CHARATWATANAWAN,20187@students.isb.ac.th,,,,,,1,kirbym@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Hannah,KANG,23235@students.isb.ac.th,,,,,,1,kirbym@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Anika,LAKHINA,23757@students.isb.ac.th,,,,,,1,kirbym@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Nia,NELSON,21473@students.isb.ac.th,,,,,,1,kirbym@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Nanont,RATANASUWANTHAWEE,21538@students.isb.ac.th,,,,,,1,kirbym@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Layla,ROBINSON,23193@students.isb.ac.th,,,,,,1,kirbym@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Telem,ROTEM,21876@students.isb.ac.th,,,,,,1,kirbym@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Bella,SAJJACHAIYANONT,24203@students.isb.ac.th,,,,,,1,kirbym@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Gem,TAN,23228@students.isb.ac.th,,,,,,1,kirbym@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Maximilian,TRUNZER,23130@students.isb.ac.th,,,,,,1,kirbym@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Narida,VISAVARAKOON,20202@students.isb.ac.th,,,,,,1,kirbym@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Tucker,WOOD,23326@students.isb.ac.th,,,,,,1,kirbym@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Emily,COLSEN,24633@students.isb.ac.th,,,,,,1,kims@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Emerson,FAIRCHILD,21382@students.isb.ac.th,,,,,,1,kims@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Sam,KARTLINE,24477@students.isb.ac.th,,,,,,1,kims@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Yanting,LI,22952@students.isb.ac.th,,,,,,1,kims@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Ploypimpan,PANYASIRI,23370@students.isb.ac.th,,,,,,1,kims@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Panya,PIKE,20509@students.isb.ac.th,,,,,,1,kims@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Patt,SETTAPANICH,22031@students.isb.ac.th,,,,,,1,kims@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Russell,TAALA,23173@students.isb.ac.th,,,,,,1,kims@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Jin,TANG,22924@students.isb.ac.th,,,,,,1,kims@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Amara,THOMAS,19689@students.isb.ac.th,,,,,,1,kims@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Rina,WAKASA,24138@students.isb.ac.th,,,,,,1,kims@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Yutong,WANG,22535@students.isb.ac.th,,,,,,1,kims@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Riko,HIGASHIYAMA,24152@students.isb.ac.th,,,,,,1,scotts@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Thattham,LERTVILAIVITHAYA,19587@students.isb.ac.th,,,,,,1,scotts@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Jihyun,PAK,21793@students.isb.ac.th,,,,,,1,scotts@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Julian,PANCHATHA,23929@students.isb.ac.th,,,,,,1,scotts@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Sisaran,PATAVEKARN,20194@students.isb.ac.th,,,,,,1,scotts@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Isabella,PEK,23819@students.isb.ac.th,,,,,,1,scotts@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Aung,PHYO,23574@students.isb.ac.th,,,,,,1,scotts@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Finn,SCHWERDTFEGER,24006@students.isb.ac.th,,,,,,1,scotts@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Sebastian,TSAI,23285@students.isb.ac.th,,,,,,1,scotts@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Zi-qing,WANG,19945@students.isb.ac.th,,,,,,1,scotts@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Nuo,XU,23265@students.isb.ac.th,,,,,,1,scotts@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Matthew,ABERNATHY,23423@students.isb.ac.th,,,,,,1,patiencs@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Wonjun,CHO,24560@students.isb.ac.th,,,,,,1,patiencs@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Marina,FONG,20485@students.isb.ac.th,,,,,,1,patiencs@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Jie,JI,22568@students.isb.ac.th,,,,,,1,patiencs@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Genevieve,LINTON,24653@students.isb.ac.th,,,,,,1,patiencs@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Omri,NAHMIAS,21039@students.isb.ac.th,,,,,,1,patiencs@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Emmalyn,QUILES,23826@students.isb.ac.th,,,,,,1,patiencs@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Lea,RATTINGER,23303@students.isb.ac.th,,,,,,1,patiencs@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Audrey,SHARGHI,24594@students.isb.ac.th,,,,,,1,patiencs@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Justin,SVANSTROM,22923@students.isb.ac.th,,,,,,1,patiencs@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Narada,THIENPAITOON,20204@students.isb.ac.th,,,,,,1,patiencs@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Valraya,VANICHYANYONG,21220@students.isb.ac.th,,,,,,1,patiencs@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Nawin,BOONYAKIEAT,22513@students.isb.ac.th,,,,,,1,colins@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Sofia,BOTELHO CHAZARRETA,20118@students.isb.ac.th,,,,,,1,colins@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Purin,CHUNGSAWANANT,23078@students.isb.ac.th,,,,,,1,colins@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Chase,CROCKETT,24419@students.isb.ac.th,,,,,,1,colins@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Lily,FEREN,23816@students.isb.ac.th,,,,,,1,colins@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Joaquin,FLORES,22174@students.isb.ac.th,,,,,,1,colins@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Zongyou,HE,23997@students.isb.ac.th,,,,,,1,colins@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Jungyoon,HONG,23220@students.isb.ac.th,,,,,,1,colins@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Tristan,HYKES,23623@students.isb.ac.th,,,,,,1,colins@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Seowoo,KIM,24204@students.isb.ac.th,,,,,,1,colins@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Apinya,LOJANAVANICH,19588@students.isb.ac.th,,,,,,1,colins@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Sophia,REDDINGTON,24471@students.isb.ac.th,,,,,,1,colins@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Kei,FUKAO,24181@students.isb.ac.th,,,,,,1,yoanav@isb.ac.th | peter@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Cali,GORDON,23252@students.isb.ac.th,,,,,,1,yoanav@isb.ac.th | peter@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Kirin,HUYNH,22275@students.isb.ac.th,,,,,,1,yoanav@isb.ac.th | peter@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Himeka,IRIKURA,23655@students.isb.ac.th,,,,,,1,yoanav@isb.ac.th | peter@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Luiza,JOST,24395@students.isb.ac.th,,,,,,1,yoanav@isb.ac.th | peter@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Jaenie,KIM,22745@students.isb.ac.th,,,,,,1,yoanav@isb.ac.th | peter@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Adriana,KLEMPIN,19675@students.isb.ac.th,,,,,,1,yoanav@isb.ac.th | peter@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Catalina Joy,NORTHCOTT,23973@students.isb.ac.th,,,,,,1,yoanav@isb.ac.th | peter@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Yanapa,SAKULSRIPASERT,21585@students.isb.ac.th,,,,,,1,yoanav@isb.ac.th | peter@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Arturo,SEPULVEDA MARAMBIO,20759@students.isb.ac.th,,,,,,1,yoanav@isb.ac.th | peter@isb.ac.th,sarahc@isb.ac.th,,,,9,,,,,1,MS
+Naran,TIEWTRANON,19589@students.isb.ac.th,,,,,,1,yoanav@isb.ac.th | peter@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+David,BARCLAY,20510@students.isb.ac.th,,,,,,1,richardw@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Lash,BIRSINGER,23828@students.isb.ac.th,,,,,,1,richardw@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Erika,CONIGLIO,19973@students.isb.ac.th,,,,,,1,richardw@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Danhyo,KIM,22803@students.isb.ac.th,,,,,,1,richardw@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Yoon-Jae,KO,24114@students.isb.ac.th,,,,,,1,richardw@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Chaiwat,LIAO,20128@students.isb.ac.th,,,,,,1,richardw@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Xinyao,QI,24611@students.isb.ac.th,,,,,,1,richardw@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Nana,SHIRAISHI,23324@students.isb.ac.th,,,,,,1,richardw@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Rahima,SINGH,21217@students.isb.ac.th,,,,,,1,richardw@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Ishana,THAKRAL,20730@students.isb.ac.th,,,,,,1,richardw@isb.ac.th,kevinc@isb.ac.th,,,,9,,,,,1,MS
+Naphat,TWINVITOO,19596@students.isb.ac.th,,,,,,1,richardw@isb.ac.th,izas@isb.ac.th,,,,9,,,,,1,MS
+Daylan,ANG,24400@students.isb.ac.th,,,,,,1,dannyb@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Lucas,BARON-TOALDO,20042@students.isb.ac.th,,,,,,1,dannyb@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Pakin,CHUNNASART,20706@students.isb.ac.th,,,,,,1,dannyb@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Tamara,DOLIDZE,23851@students.isb.ac.th,,,,,,1,dannyb@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Tristan,GEE,19029@students.isb.ac.th,,,,,,1,dannyb@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Fiona,GOTTSCHALK,22616@students.isb.ac.th,,,,,,1,dannyb@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Zitong,HUANG,23693@students.isb.ac.th,,,,,,1,dannyb@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Shutan,JI,24613@students.isb.ac.th,,,,,,1,dannyb@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Pharin,NATIPHANON,21551@students.isb.ac.th,,,,,,1,dannyb@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Independence,ODUM,23708@students.isb.ac.th,,,,,,1,dannyb@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Oranid,PUNWATANAWIT,19183@students.isb.ac.th,,,,,,1,dannyb@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Sena,SHINOZAKI,20363@students.isb.ac.th,,,,,,1,dannyb@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Lucca,AURICHI,24218@students.isb.ac.th,,,,,,1,mikeb@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Scarlett Ann,BACA,24102@students.isb.ac.th,,,,,,1,mikeb@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Napawat,CHAWALDIT,19591@students.isb.ac.th,,,,,,1,mikeb@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Antonina,KASTIULINA,22776@students.isb.ac.th,,,,,,1,mikeb@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Rujapa,KETVORAVIT,20196@students.isb.ac.th,,,,,,1,mikeb@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Taeyeon,LEE,19569@students.isb.ac.th,,,,,,1,mikeb@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Pawarisa,POKSAWAT,21929@students.isb.ac.th,,,,,,1,mikeb@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Raj,RANDALL,22901@students.isb.ac.th,,,,,,1,mikeb@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Vedaant,RATHORE,23429@students.isb.ac.th,,,,,,1,mikeb@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Jairav,SACHAMAHITHINANT,22397@students.isb.ac.th,,,,,,1,mikeb@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Aditya,SINGH,24049@students.isb.ac.th,,,,,,1,mikeb@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Eamon,SMITH,24126@students.isb.ac.th,,,,,,1,mikeb@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Chachris,WONGPRATHUM,19072@students.isb.ac.th,,,,,,1,mikeb@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Yoonha,CHUNG,20589@students.isb.ac.th,,,,,,1,carolync@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Ryan,DE MARIA,24450@students.isb.ac.th,,,,,,1,carolync@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Lynn,FUKAO,24418@students.isb.ac.th,,,,,,1,carolync@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Mizuki,HAMAI,24172@students.isb.ac.th,,,,,,1,carolync@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Maxwell,INGRAM,23918@students.isb.ac.th,,,,,,1,carolync@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Taiki,IWAMOTO,22759@students.isb.ac.th,,,,,,1,carolync@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Toben,JONES,24030@students.isb.ac.th,,,,,,1,carolync@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Sunwoo,KIM,20620@students.isb.ac.th,,,,,,1,carolync@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Kylie,NASH,24624@students.isb.ac.th,,,,,,1,carolync@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Palin,TANVILAI,19804@students.isb.ac.th,,,,,,1,carolync@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Beeri,VOLCHOK,24035@students.isb.ac.th,,,,,,1,carolync@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Pimpawee,YAEMCHUEN,23379@students.isb.ac.th,,,,,,1,carolync@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Pensawan,CHANTARAMPORN,19598@students.isb.ac.th,,,,,,1,darbyd@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Henry,COOK,23438@students.isb.ac.th,,,,,,1,darbyd@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Ari,HASAN,24588@students.isb.ac.th,,,,,,1,darbyd@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Tharm,KONGPAT,23700@students.isb.ac.th,,,,,,1,darbyd@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Yanisa,KOSAIPOLKUN,19182@students.isb.ac.th,,,,,,1,darbyd@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Thapan,KOVITCHINDACHAI,19156@students.isb.ac.th,,,,,,1,darbyd@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Fallon,MAIER,23990@students.isb.ac.th,,,,,,1,darbyd@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Win Yati,MAY PHYU,23186@students.isb.ac.th,,,,,,1,darbyd@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Mateo,MERIZALDE,23992@students.isb.ac.th,,,,,,1,darbyd@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Eve,MOTT,21632@students.isb.ac.th,,,,,,1,darbyd@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Matheus,PACKS SCHLINDWEIN,24448@students.isb.ac.th,,,,,,1,darbyd@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Wesley,WITHERS,23814@students.isb.ac.th,,,,,,1,darbyd@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Yuxuan,ZHENG,21973@students.isb.ac.th,,,,,,1,darbyd@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Niya,FAN,24616@students.isb.ac.th,,,,,,1,johnki@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Leonardo,GAGGIO,19079@students.isb.ac.th,,,,,,1,johnki@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Sebastian,GALBRAITH-SWIRYN,21318@students.isb.ac.th,,,,,,1,johnki@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Xitong,GE,24434@students.isb.ac.th,,,,,,1,johnki@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Ian,GLASGOW BOLANOS,24071@students.isb.ac.th,,,,,,1,johnki@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Eiman,HAMMAD,24414@students.isb.ac.th,,,,,,1,johnki@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Kuzey,KIZILCIK,24059@students.isb.ac.th,,,,,,1,johnki@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Pakin,KOSITSAKUL,22846@students.isb.ac.th,,,,,,1,johnki@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Thira,TANGTONGTRAKUL,22403@students.isb.ac.th,,,,,,1,johnki@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Kaia,UDAGAWA,19538@students.isb.ac.th,,,,,,1,johnki@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Ethan,WANG,22534@students.isb.ac.th,,,,,,1,johnki@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Maya,WERNER,19331@students.isb.ac.th,,,,,,1,johnki@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Tharada,BOONCHIRT,20958@students.isb.ac.th,,,,,,1,koffik@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Giovanni,DE SOUZA OTTONI,22111@students.isb.ac.th,,,,,,1,koffik@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Runjie,DU,21934@students.isb.ac.th,,,,,,1,koffik@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Preeti,HEMVANICH,20131@students.isb.ac.th,,,,,,1,koffik@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Sai,NAING PHOO,22622@students.isb.ac.th,,,,,,1,koffik@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Anyada,PORNDHITI,21930@students.isb.ac.th,,,,,,1,koffik@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Pichetpong,SANGJAN,20960@students.isb.ac.th,,,,,,1,koffik@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Kyoka,SANOI,23921@students.isb.ac.th,,,,,,1,koffik@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Campbell,TEITELBAUM,24241@students.isb.ac.th,,,,,,1,koffik@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Pyo,THAR,22956@students.isb.ac.th,,,,,,1,koffik@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Bhavitr,TICHACHOL,24291@students.isb.ac.th,,,,,,1,koffik@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Adwit,WADHWA,24076@students.isb.ac.th,,,,,,1,koffik@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Zwel Yan Paing,WIN,22939@students.isb.ac.th,,,,,,1,koffik@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Madina,BASHIROVA,23741@students.isb.ac.th,,,,,,1,lukem@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Supitcha,CHAIRATN,19592@students.isb.ac.th,,,,,,1,lukem@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Nita,CHAIWATANARAT,22847@students.isb.ac.th,,,,,,1,lukem@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Sameer,DAGA,19194@students.isb.ac.th,,,,,,1,lukem@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Jungwoo,KIM,20619@students.isb.ac.th,,,,,,1,lukem@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Chenray,LI,20432@students.isb.ac.th,,,,,,1,lukem@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Taylan,MESE,23817@students.isb.ac.th,,,,,,1,lukem@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Sabrina,MORTON,23854@students.isb.ac.th,,,,,,1,lukem@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Napapha,PROMTARAWONG,22398@students.isb.ac.th,,,,,,1,lukem@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Miguel,QUILES,23827@students.isb.ac.th,,,,,,1,lukem@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Noah,RATTINGER,23304@students.isb.ac.th,,,,,,1,lukem@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Rotem,REGEV,24033@students.isb.ac.th,,,,,,1,lukem@isb.ac.th,michaeld@isb.ac.th,,,,10,,,,,1,MS
+Noah,SMITH,23129@students.isb.ac.th,,,,,,1,lukem@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Farzad,ARZOIEE,23734@students.isb.ac.th,,,,,,1,justinm@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Penpannarai,CHANTARAMPORN,19599@students.isb.ac.th,,,,,,1,justinm@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Nadech,CHAROENMECHAIKUL,23374@students.isb.ac.th,,,,,,1,justinm@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Piper,DAY,19147@students.isb.ac.th,,,,,,1,justinm@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Alex,EDELSON,19057@students.isb.ac.th,,,,,,1,justinm@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Ryu,FUKUSHIGE,23811@students.isb.ac.th,,,,,,1,justinm@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Adar,GILAD,24043@students.isb.ac.th,,,,,,1,justinm@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Sean,HONG,21100@students.isb.ac.th,,,,,,1,justinm@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Shihao,KOU,23919@students.isb.ac.th,,,,,,1,justinm@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Gioia,NOLAN,23397@students.isb.ac.th,,,,,,1,justinm@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Fuma,SUZUKI,24128@students.isb.ac.th,,,,,,1,justinm@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Waddy,TUN,22438@students.isb.ac.th,,,,,,1,justinm@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Matthias,YSTROEM,19700@students.isb.ac.th,,,,,,1,justinm@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Timofei,GEZGIN,24058@students.isb.ac.th,,,,,,1,oliverp@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Ido,GOLDIN,23158@students.isb.ac.th,,,,,,1,oliverp@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Andrew,HOPE,23917@students.isb.ac.th,,,,,,1,oliverp@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Sterling,HOWARD,22404@students.isb.ac.th,,,,,,1,oliverp@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Chanta,KUNAKORN,20188@students.isb.ac.th,,,,,,1,oliverp@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Mai Ly,LE,23758@students.isb.ac.th,,,,,,1,oliverp@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Proud,PHISUTHIKUL,19593@students.isb.ac.th,,,,,,1,oliverp@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Rex,SANTOSVALERIO JR.,23746@students.isb.ac.th,,,,,,1,oliverp@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Miu,SAWAGUCHI,19026@students.isb.ac.th,,,,,,1,oliverp@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Patricia,SRETHAPAKDI,22399@students.isb.ac.th,,,,,,1,oliverp@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Phobtorn,TECHOPITAYAKUL,22402@students.isb.ac.th,,,,,,1,oliverp@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Ruilin,XIE,23843@students.isb.ac.th,,,,,,1,oliverp@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+William,BATTEN,24073@students.isb.ac.th,,,,,,1,pauloq@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Robin,BRUECKMANN-TURBON,22963@students.isb.ac.th,,,,,,1,pauloq@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Shiori,CHIHARA,23706@students.isb.ac.th,,,,,,1,pauloq@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Abhinav,GURUNG,23697@students.isb.ac.th,,,,,,1,pauloq@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Chae-Yoon,LEE,20908@students.isb.ac.th,,,,,,1,pauloq@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Patchanun,MANOMAIPHAN,21409@students.isb.ac.th,,,,,,1,pauloq@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Charles,MAO,22556@students.isb.ac.th,,,,,,1,pauloq@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Teagan,NISBET,21264@students.isb.ac.th,,,,,,1,pauloq@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Kantaphol,SUNIRAND,23951@students.isb.ac.th,,,,,,1,pauloq@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Kotcharinthorn,TANGMANEE,21549@students.isb.ac.th,,,,,,1,pauloq@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Harlan,THORNBURG,24130@students.isb.ac.th,,,,,,1,pauloq@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Mark,THURNEYSEN,21652@students.isb.ac.th,,,,,,1,pauloq@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Olivia,ALSCHBACH,23292@students.isb.ac.th,,,,,,1,karenre@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Xinling,BAI,23243@students.isb.ac.th,,,,,,1,karenre@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Hyunmin,CHOI,24161@students.isb.ac.th,,,,,,1,karenre@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Ludovico,GAGGIO,19080@students.isb.ac.th,,,,,,1,karenre@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Ryan,KIM,22762@students.isb.ac.th,,,,,,1,karenre@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Rei,MORISHITA,24193@students.isb.ac.th,,,,,,1,karenre@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Kaan,PIETZ,23428@students.isb.ac.th,,,,,,1,karenre@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Millie,POPOVIC,20158@students.isb.ac.th,,,,,,1,karenre@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Rujapa,PROMPOW,22105@students.isb.ac.th,,,,,,1,karenre@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Nihal,RAHMAN,24060@students.isb.ac.th,,,,,,1,karenre@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Zaik,SALIE,23844@students.isb.ac.th,,,,,,1,karenre@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Ryan,SHIM,23595@students.isb.ac.th,,,,,,1,karenre@isb.ac.th,sapphirab@isb.ac.th,,,,10,,,,,1,MS
+Sethapong,TOJIRAKARN,20707@students.isb.ac.th,,,,,,1,karenre@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Kidd,ARAYASOMBOON,20705@students.isb.ac.th,,,,,,1,davids@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Sasadech,BENJAKUL,23931@students.isb.ac.th,,,,,,1,davids@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Lucas,CALDERÓN,23779@students.isb.ac.th,,,,,,1,davids@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Narisarakorn,CHAIPAYOM,21565@students.isb.ac.th,,,,,,1,davids@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Yu,CHIAO,21496@students.isb.ac.th,,,,,,1,davids@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Troy,GEE,19030@students.isb.ac.th,,,,,,1,davids@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Yuchan,LEE,23148@students.isb.ac.th,,,,,,1,davids@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Chan Myae,TUN,23396@students.isb.ac.th,,,,,,1,davids@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Jente,VAN ETTRO,23764@students.isb.ac.th,,,,,,1,davids@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Yao,ZHAO,23425@students.isb.ac.th,,,,,,1,davids@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Tianji,ZHOU,24038@students.isb.ac.th,,,,,,1,davids@isb.ac.th,izas@isb.ac.th,,,,10,,,,,1,MS
+Alexander,AAS,19471@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+La Min,BOOM,22243@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Harper,DOYEL,23311@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Trevan,HYKES,23622@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Bino,KIM,22746@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Hyunsoo,KIM,23266@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Suphadit,LIMSUWAN,20964@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Caroline,LINTON,24654@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Ron,MATSUNOBU,23599@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Riley,MCELROY,22913@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Ottilie,ORCHARD,24019@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Louna,PETITPREZ,22937@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Rossarin,SINGHNARULA,20968@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Renee,SUPHAMONGKHON,23278@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Farn,TANTISUNTHORN,19185@students.isb.ac.th,,,,,,1,soleneb@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Davut,ANNAMYRADOV,24600@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Abdullah,CANKAYA,19632@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Brayden,COLLINS,23794@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Ceres,FONG,19443@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Carter,GORDON,23262@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Rinka,IRIKURA,23654@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Juno,ITO,22522@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Jessie,JOKHANI,19031@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Nathan,KIM,20832@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Pannakarn,KULMANOCHWONG,20312@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Asa,LAWRENCE,24481@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Dakota,NOUPECH,23442@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Atikarn,PHISUTHIKUL,18523@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Slin,PONGVITAYAPANU,19169@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Siriana,THAMPI,24302@students.isb.ac.th,,,,,,1,farrahc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Aamina,ABDULLA,21079@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Lae,AUNG,24416@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Wipada,CHAOWORAWINYU,23021@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Rachamongol,CHAYAPIRAD,18544@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Yawen,DUAN,20609@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Ella,FAHERTY,23797@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Papanggorn,KAMOLJITPRAPA,24243@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Sakura,MOTOKAWA,24169@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Kaito,OSE,22915@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Jiho,PARK,22781@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Krittaphak,PORNSIRIKUL,20965@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Xana,SAYAMPOL ALONSO,18626@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Anton,SOMMERVILLE,24063@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Stella,THAXTON,22703@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Tristan Jia Rong,YEO,23636@students.isb.ac.th,,,,,,1,brianc@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Jira,CHAMROONTANESKUL,19601@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Ari,COPEL,21816@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Jack,DUNN,18474@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Fei,FRANCISCO,22546@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Alexandre,HOPE,23916@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Alexa,HSU,24407@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Yuri,KARABANOV,22327@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Yu,KOSO,21769@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Jooheon,LEE,23750@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Jaden,PERRY,19217@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Natthakrit,POLPAISAL,20183@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Chartarporn,SAIKUAR,18524@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Mehma,SINGH,21586@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Prinnapat,SUNTHORNRANGSRI,18522@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Julia,WALKER,24396@students.isb.ac.th,,,,,,1,adamf@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Pluempiti,BRAHMASAKHA NA SAKOLNAGARA,21894@students.isb.ac.th,,,,,,1,iang@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Thondari,CHO THAR,23435@students.isb.ac.th,,,,,,1,iang@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Kieren,COLLINS,23793@students.isb.ac.th,,,,,,1,iang@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Samuel,FEREN,23810@students.isb.ac.th,,,,,,1,iang@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Heather,FONG,19442@students.isb.ac.th,,,,,,1,iang@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Huanglu,GUO,23313@students.isb.ac.th,,,,,,1,iang@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Pipatphon,LEABCHANTRA,20529@students.isb.ac.th,,,,,,1,iang@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Emily,LEBER,21920@students.isb.ac.th,,,,,,1,iang@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Paizhi,LIANG,22548@students.isb.ac.th,,,,,,1,iang@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Ruohan,PEI,23964@students.isb.ac.th,,,,,,1,iang@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Jirapat,PHATTANATEERADAJ,21902@students.isb.ac.th,,,,,,1,iang@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Manussanun,RUAYJAROENSAP,21903@students.isb.ac.th,,,,,,1,iang@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Tay,TATIYAMANEEKUL,19229@students.isb.ac.th,,,,,,1,iang@isb.ac.th,izas@isb.ac.th,,,,11,,,,,1,MS
+Dorothy,VELEZ,24332@students.isb.ac.th,,,,,,1,iang@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Ameer,BALDAWI,23789@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Yiheng,CHEN,22137@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Shae,FAIRCHILD,21381@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Mira,KANGRUNGRUENGCHAI,20185@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Anukruthi,KONDAGUNTURI,23737@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Tsuzumi,MORITA,23101@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Lin,MYAT CHAL,22680@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,kevinc@isb.ac.th,,,,11,,,,,1,MS
+Oliver,NICHOLS,23279@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Sofya,OSE,22914@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Vachiravit,PAKPITPIBOOL,19612@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Seyeon,PARK,20931@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Jan,PORAY-WILCZYNSKI,23460@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Krittaphart,PORNSIRIKUL,20966@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Aarohi,RAO,22682@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Sam,VAN OOSTEN,21143@students.isb.ac.th,,,,,,1,carolinh@isb.ac.th | ghislain@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Jirat,CHAMROONTANESKUL,19602@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Marco,GIUSTO,22382@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Amaya,GRAN,24351@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Dianna,GRUBE,22135@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Jimin,HONG,24036@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Logan,JARRIN,23672@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Ellen,KIM,22763@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Cunxi,LI,23230@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Titan,MIELKE,19795@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Yui,NAKAJIMA,23739@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Seongwoo,PARK,23610@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Pongpipat,PUNYASATAPORN,20367@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Wasu,VIDAYANAKORN,19332@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Sophie,YANG,20787@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Nathan,YU,22726@students.isb.ac.th,,,,,,1,tiffanyk@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Ruby,BYCRAFT,22969@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Supanat,CHAYAPIRAD,22592@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Neil,COLACO,21983@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Reese,FAHERTY,23795@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Benicio,HARRYSON,19397@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Masamichi,HOTTA,23742@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Jordan,KONDITI,23986@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Yu Wai,MON,22648@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Camila,REYES,22903@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Pimchanok,RUNGPAIBULKUL,24220@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Worakrit,TANATCHASAI,21414@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Pichayapa,TUAYCHAROEN,22860@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Nathanicha,VAJARASTHIRA,19231@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Victor,ZICHAU,23439@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Alexander,ZIMMERMAN,23815@students.isb.ac.th,,,,,,1,rebeccal@isb.ac.th | aliceb@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Liran,CHEN,23321@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Ravek,GULATI,21412@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Yohannes,HASAN,24589@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Zethan,HAZEL,23963@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Kathryn,IEUMWANANONTHACHAI,21897@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Thuta,MAUNG,24417@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Darragh,NOLAN,23309@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Elena,NYQUIST,23284@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Pornalin,PIROONHAPAT,19165@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Somchote,SAHAVAT,19171@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Kane,SCHAAKE,18437@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Shaina,SHARMA,23318@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Alyssa,TSU,21661@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Sawapon,WARTIN,18530@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Ella,XIE,22579@students.isb.ac.th,,,,,,1,jennifef@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Thanapan,BOORANALERTPAISARN,21893@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Pattiya,BURAPAPONG,20528@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Amanda,COHEN,19681@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Sophia,DAVIS,24320@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Maxton Porter,HINTZE,24329@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Ployrung,KASUWAN,23936@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Karen,KAWASAKI,23481@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+David,LASZLO,23480@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Gabriel,MELODY,23224@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Micaiah,PHILLIPS,22140@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Kayla,STEPHENSON,18454@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Taweewat,THIANPHITHAK,21905@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Sapon,WARTIN,18531@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Miori,YANAGIYA,23727@students.isb.ac.th,,,,,,1,andrews@isb.ac.th | celinel@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Mathias,COTE-CORTES,23751@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Chloe,FUGA,24457@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Inaya,GOYAL,21386@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Lamin,LU LU,23163@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Aydan,MEISNER SNOOK,18511@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Kaisei,NISHIWAKI,24191@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Nasha,NNAFIE,24216@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,kevinc@isb.ac.th,,,,11,,,,,1,MS
+Avi,RUBIN,18500@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Napa,SARASIN,20969@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Yair Rubin,SHIVEK,23711@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,kevinc@isb.ac.th,,,,11,,,,,1,MS
+Andrew,SOULE,18457@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Sean,TERDPRISANT,19228@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Jenissa,VICHIANSIN,21626@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,michaeld@isb.ac.th,,,,11,,,,,1,MS
+Avery,WOOD,23327@students.isb.ac.th,,,,,,1,gregt@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Ethan,ALSCHBACH,23293@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Eli,BUSH,19277@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Jinnicha,CHAIYAPUCK,23722@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Jirun,CHAMROONTANESKUL,20221@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Kornsiripatchara,DAMRONGRAT,18521@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Mikihiro,HASHIZUME,22365@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Sicheng,JIANG,22719@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Thananya,MANOLEEHAGUL,19968@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Anais,POSTEL-VINAY,18897@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Gabriel,ROBERTS,24047@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Paul,SAENGCHATI,19158@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Sandar,THANT,24576@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Adaaran,WONGWAN,20531@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Ela,YILDIRIM,24363@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Sehoon,YOON,21356@students.isb.ac.th,,,,,,1,juanpablov@isb.ac.th,sapphirab@isb.ac.th,,,,11,,,,,1,MS
+Sirinda,CHALERMTHIRALERT,19980@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Edward,CHAN,21452@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Nattakrit,CHAROENMECHAIKUL,23116@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Praefa,KASUWAN,23935@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Garam,KIM,22051@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Brenya,LOHWONGWATANA,23552@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Rhys,MAIER,23989@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Chinatsu,MITA,23192@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Raheel,PARVEZ,21853@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Baron,REESE,23522@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Yari-Alessio,RESTA,23761@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Nicolas,SWEENEY,19330@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Phatchaya,WONGWORAKAN,21424@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Yuta,YONEMASU,22928@students.isb.ac.th,,,,,,1,sarahb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Sawita,ABERNATHY,23424@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Thijs,BIJL,18810@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Paradee,BISALPUTRA,20971@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Xincheng,HU,17972@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Gunnar,JONES,24031@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Yosuke,KANEKO,22378@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Paphawin,KOOLHIRAN,20516@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Let Ya,LAY PHYU,23691@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Le Fan,LOO,18403@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Natjapak,SATTABUSYA,18543@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Napat,THONGJEN,23178@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Riko,UZUKA,23142@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Poon,VEERARITTIPHAN,21422@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Kaichen,XIA,20930@students.isb.ac.th,,,,,,1,josefb@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Apiwit,BULPAKDI,21416@students.isb.ac.th,,,,,,1,enriquec@isb.ac.th | xuel@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Vaniya,CHESHMEH,22330@students.isb.ac.th,,,,,,1,enriquec@isb.ac.th | xuel@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Lara,GERAETS,22067@students.isb.ac.th,,,,,,1,enriquec@isb.ac.th | xuel@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Settapun,JONGSUEBCHOKE,18526@students.isb.ac.th,,,,,,1,enriquec@isb.ac.th | xuel@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Soohyun,LEE,18446@students.isb.ac.th,,,,,,1,enriquec@isb.ac.th | xuel@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Colten,MARKLEY,23005@students.isb.ac.th,,,,,,1,enriquec@isb.ac.th | xuel@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Yiftach,PERETZ,21864@students.isb.ac.th,,,,,,1,enriquec@isb.ac.th | xuel@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Angad,SACHDEV,19624@students.isb.ac.th,,,,,,1,enriquec@isb.ac.th | xuel@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Victor,SEVERINO,22700@students.isb.ac.th,,,,,,1,enriquec@isb.ac.th | xuel@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Amira,SHARGHI,24593@students.isb.ac.th,,,,,,1,enriquec@isb.ac.th | xuel@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Abhijay,SINGH,24050@students.isb.ac.th,,,,,,1,enriquec@isb.ac.th | xuel@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Thiti,SUTEESOPON,20214@students.isb.ac.th,,,,,,1,enriquec@isb.ac.th | xuel@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Ying,XIONG,21668@students.isb.ac.th,,,,,,1,enriquec@isb.ac.th | xuel@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Jackson,BOSTIC,19322@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Waris,CHAOPRICHA,21908@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Tanawat,CHEEVARUNOTHAI,17931@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Jocelyn,CHETCHOTISAK,19982@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Elizabeth,CHOO,21854@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Joseph,COYLE,24444@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Chanikarn,JARUPONGPRAPA,19609@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Sophia,MARKS,22808@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Teo,OGUZHAN,23316@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Sean,RIAN,17791@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Shani,ROTEM,21974@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Kaede,SANOI,22916@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Mika,TOKUTOMI,23696@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Aaliya Raj,TRIPATHI,23218@students.isb.ac.th,,,,,,1,natalyah@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Eleanor,BIJNENS,18468@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Ashley,BOBRIK,23388@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Juthamard,CHATJUTHAMARD,19610@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Nadav,GOLDIN,23157@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Luke,HOPKINS,21787@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Suansilpa,KESORNSAK,20975@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Xianming,LI,22644@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Alastair,PERRYMAN JR,22707@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Pann,PHUNGBUNPHRA,23560@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Kamelya,PIETZ,23527@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,kevinc@isb.ac.th,,,,12,,,,,1,MS
+Napakapol,PITAKTEERATHAM,22406@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Damla,TAKIR,18645@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Smith,THAMAKAISON,19179@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,kevinc@isb.ac.th,,,,12,,,,,1,MS
+Natalie,ZANNIER PORZELLA,22871@students.isb.ac.th,,,,,,1,rebeccah@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Jonah,CHAYAVICHITSILP,22088@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Ruishu,CHEN,19711@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Ying,CHIAO,21495@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Max,KARTLINE,24478@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Natnaree,KHIEWBORRIBOON,21379@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Jimin,KIM,18483@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Ploychompoo,LERTKIATDAMRONG,23041@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Rungphob,LERTVILAIVITHAYA,18586@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Ada,PHETSOMPHOU,17818@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Nontapat,PRAYOONTHONG,19600@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Atip,SOOKRUKSAWONG,21419@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Pitt,SOPHONSIRI,23540@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Blake,TAALA,23174@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Chenfei,YAN,24062@students.isb.ac.th,,,,,,1,davidl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Jude,AKIN,23475@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Bridget,BROWN,24052@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Jingxuan,GAO,20461@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Luke,GARRIGAN,20372@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Jaehun,JUNG,23269@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Alin,KASEMTANAKUL,20532@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Reina,KISHI,22704@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Krai,KRAIKUTREE,23563@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Meixi,LI,20882@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Weewarin,ROONGTANAPIROM,21911@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Naphat,SUWANRUJI,24078@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Thee,TEERACHOTMONGKOL,19655@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Htet Wun,YAN,22810@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Daria,YASTREBOVA,20667@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Zihao,YE,22991@students.isb.ac.th,,,,,,1,meghanl@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Poompath,CHAROENTRA,19981@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Hyein,CHOI,23171@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Oriella,D'ONOFRIO-JOHNSTON,22510@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Harel,GOLDIN,23156@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Mena,KAJORNPRASART,20974@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Seungjun,KIM,22607@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Chuong,PHAM,22238@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Louis,POPOVIC,20157@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Hayden,SHIM,23594@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Pinar,TAKIR,18644@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Ahkar,THANT,24242@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Boonyada,TRILOGA,19698@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Chloe,WELSH,21709@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Noppavee,WIPOOSIRI,20981@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Yongen,ZHOU,20901@students.isb.ac.th,,,,,,1,cameron@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Pirada,BISALPUTRA,20972@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Lalana,BROWN,22785@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Phichan,CHAIRATN,19611@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Sorathon,CHUNGSAWANANT,23077@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Brace,HALL,18485@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Achira,KARASUDDHI,22301@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Nathakorn,MAHAWEERAKHUN,19802@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Ashan Nadeesha de Zoysa W,PUBUDUMUNI,19061@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Deven,RANDALL,22900@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Naika,SACHAMAHITHINANT,22408@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Sophie-Ellen,SMITH,23127@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Alex,SVERHA-CSURILLA,20763@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Aoi,WATABE,23781@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,michaeld@isb.ac.th,,,,12,,,,,1,MS
+Asta,WIN,22642@students.isb.ac.th,,,,,,1,passamom@isb.ac.th | naokom@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Bhuriwaj,BUSSAYASRIPATT,17956@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Annaleece,FIELDS,24192@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Aviv,GILAD,24042@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Tenner,HAGERTY,23783@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,sapphirab@isb.ac.th,,,,12,,,,,1,MS
+Ian,HONG,21101@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Mshindi,KAIYA,18606@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Piyatida,LUANGON,19166@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Bella,MARTENS,22793@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Maksat,MILLER,23221@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Supasuda,MONGKOLSMAI,24346@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Nunnapat (Napat),ROMSALA,19987@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Pakanat,SIVAPIROMRAT,23058@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Yixuan,SUN,20953@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Jingjie,WANG,23256@students.isb.ac.th,,,,,,1,selenar@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Pedro,CALDERÓN,23780@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Ethan,DOMINGUEZ,23718@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Yichen,DU,22356@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Petra,GEE,17800@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+David,GEORGE SEGURA,23699@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Aaditya,GURUNG,23698@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Minseo,KANG,23582@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Vaanya,KAPUR,20910@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Ploypailin,LERTKIATDAMRONG,22407@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Emma,LIANG,22450@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Varun,MAGESH,19232@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Sophia,MCCLAIN,23663@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Natawalun,PRINGUTHUMPORN,19181@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Ruj,TANDALAK,21913@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Yuto,WATANABE,22178@students.isb.ac.th,,,,,,1,smitas@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Neily,KING,22709@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Mayura,MOUAWAD,17794@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Davin,OH,19376@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Wint Wadi,PHYO,23524@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Nunwaratch,PRINGUTHUMPORN,19180@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Poon,PUNJARUNGROJ,17924@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Gaia,SAMPERMANS,19721@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Napon,THAVORNVANIT,17918@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Poranat,TOKAMOLTHAM,21420@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Daniel,VAN OOSTEN SLINGELAND,20512@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Chi Phuong,VU,20647@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Hyukjoo,WOO,23073@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Yueran,XU,23596@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS
+Yizhou,XUE,22659@students.isb.ac.th,,,,,,1,jiapingz@isb.ac.th | sucheerr@isb.ac.th,izas@isb.ac.th,,,,12,,,,,1,MS

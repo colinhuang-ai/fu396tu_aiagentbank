@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anonymize — Mã hóa email &amp; số điện thoại</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --panel: #ffffff;
+    --border: #dfe3e8;
+    --text: #1c2024;
+    --muted: #6b7280;
+    --accent: #2563eb;
+    --accent-soft: #eff4ff;
+    --ok: #0f7b47;
+    --ok-soft: #e8f6ee;
+    --warn: #a4500a;
+    --warn-soft: #fdf3e7;
+    --err: #b42318;
+    --err-soft: #fdeceb;
+    --mono: ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace;
+    --radius: 10px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16181c; --panel: #1e2126; --border: #32363d; --text: #e6e8ea;
+      --muted: #9aa1ab; --accent: #6a9bff; --accent-soft: #1d2637;
+      --ok: #58d19a; --ok-soft: #16291f; --warn: #e0a458; --warn-soft: #2b2317;
+      --err: #f2837a; --err-soft: #2d1b1a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 32px 20px 64px;
+    background: var(--bg); color: var(--text);
+    font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; }
+
+  header { margin-bottom: 22px; }
+  h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); font-size: 13.5px; }
+
+  .banner {
+    display: flex; gap: 10px; align-items: flex-start;
+    padding: 10px 13px; border-radius: var(--radius); font-size: 13.5px;
+    border: 1px solid transparent; margin: 14px 0 0;
+  }
+  .banner.ok   { background: var(--ok-soft);   border-color: var(--ok);   color: var(--ok); }
+  .banner.err  { background: var(--err-soft);  border-color: var(--err);  color: var(--err); }
+  .banner code { font-family: var(--mono); font-size: 12.5px; }
+
+  .panel {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: 18px; margin-top: 16px;
+  }
+
+  /* --- chọn chế độ --- */
+  .modes { display: flex; gap: 8px; }
+  .modes button {
+    flex: 1; padding: 11px 14px; border-radius: 8px; cursor: pointer;
+    border: 1px solid var(--border); background: transparent; color: var(--text);
+    font: inherit; font-weight: 500; transition: .12s;
+  }
+  .modes button:hover { border-color: var(--accent); }
+  .modes button[aria-pressed="true"] {
+    background: var(--accent-soft); border-color: var(--accent); color: var(--accent);
+  }
+  .modes small { display: block; font-weight: 400; font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .modes button[aria-pressed="true"] small { color: var(--accent); opacity: .85; }
+
+  /* --- vùng kéo thả --- */
+  #drop {
+    margin-top: 16px; padding: 40px 20px; text-align: center; cursor: pointer;
+    border: 2px dashed var(--border); border-radius: var(--radius);
+    background: var(--bg); transition: .12s;
+  }
+  #drop:hover, #drop.over { border-color: var(--accent); background: var(--accent-soft); }
+  #drop.over { transform: scale(1.005); }
+  #drop .big { font-size: 15px; font-weight: 500; }
+  #drop .small { font-size: 12.5px; color: var(--muted); margin-top: 6px; }
+  #drop svg { opacity: .5; margin-bottom: 8px; }
+  #file { display: none; }
+
+  /* --- tuỳ chọn --- */
+  .opts { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 16px; font-size: 13.5px; }
+  .opts label { display: flex; gap: 7px; align-items: center; cursor: pointer; color: var(--muted); }
+  .opts input { accent-color: var(--accent); }
+  .opts label:has(input:checked) { color: var(--text); }
+
+  /* --- kết quả --- */
+  .card { margin-top: 14px; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+  .card > .head {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    padding: 12px 14px; background: var(--panel); border-bottom: 1px solid var(--border);
+  }
+  .card.bad > .head { background: var(--err-soft); border-bottom-color: var(--err); }
+  .name { font-weight: 600; font-size: 14px; word-break: break-all; }
+  .badge {
+    font-size: 12px; padding: 2px 8px; border-radius: 999px;
+    background: var(--ok-soft); color: var(--ok); white-space: nowrap;
+  }
+  .badge.bad { background: var(--err-soft); color: var(--err); }
+  .badge.mut { background: var(--bg); color: var(--muted); border: 1px solid var(--border); }
+  .spacer { flex: 1; }
+  .card .body { padding: 14px; background: var(--panel); }
+  .err-msg { color: var(--err); font-size: 13.5px; }
+
+  button.dl {
+    padding: 7px 13px; border-radius: 7px; cursor: pointer; font: inherit; font-size: 13px;
+    border: 1px solid var(--accent); background: var(--accent); color: #fff; font-weight: 500;
+  }
+  button.dl.ghost { background: transparent; color: var(--accent); }
+  button.dl:hover { filter: brightness(1.08); }
+
+  .diff { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 700px) { .diff { grid-template-columns: 1fr; } }
+  .diff h4 { margin: 0 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); font-weight: 600; }
+  pre {
+    margin: 0; padding: 10px; max-height: 190px; overflow: auto;
+    background: var(--bg); border: 1px solid var(--border); border-radius: 7px;
+    font-family: var(--mono); font-size: 11.5px; line-height: 1.5; white-space: pre; color: var(--text);
+  }
+  table.samples { width: 100%; border-collapse: collapse; margin-top: 14px; font-size: 12.5px; }
+  table.samples th { text-align: left; color: var(--muted); font-weight: 600; padding: 4px 8px 4px 0; font-size: 11.5px; text-transform: uppercase; letter-spacing: .04em; }
+  table.samples td { padding: 3px 8px 3px 0; font-family: var(--mono); font-size: 11.5px; word-break: break-all; vertical-align: top; }
+  table.samples td.arrow { color: var(--muted); font-family: inherit; }
+
+  footer { margin-top: 26px; color: var(--muted); font-size: 12.5px; line-height: 1.7; }
+  footer code { font-family: var(--mono); background: var(--panel); border: 1px solid var(--border); padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Mã hóa email &amp; số điện thoại</h1>
+    <div class="sub">Kéo thả file dữ liệu vào ô bên dưới. Khóa nằm trong <code>.env</code> trên máy bạn — file không hề rời khỏi máy.</div>
+    <div id="status" class="banner">Đang kiểm tra khóa…</div>
+  </header>
+
+  <div class="panel">
+    <div class="modes">
+      <button id="m-encrypt" aria-pressed="true">Mã hóa<small>email &amp; SĐT → token</small></button>
+      <button id="m-decrypt" aria-pressed="false">Giải mã<small>token → dữ liệu gốc</small></button>
+    </div>
+
+    <div id="drop" tabindex="0" role="button" aria-label="Kéo thả hoặc chọn file">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5-5 5 5"/><path d="M12 5v13"/>
+      </svg>
+      <div class="big">Kéo thả file vào đây</div>
+      <div class="small">hoặc bấm để chọn — hỗ trợ .csv .tsv .txt .json .xlsx (chọn được nhiều file)</div>
+      <input type="file" id="file" multiple>
+    </div>
+
+    <div class="opts">
+      <label title="Xuất file CSV đối chiếu giá trị gốc với token"><input type="checkbox" id="o-mapping" checked> Xuất bảng đối chiếu</label>
+      <label title="Cùng một số ở nhiều định dạng sẽ ra cùng token"><input type="checkbox" id="o-normalize"> Chuẩn hóa số điện thoại</label>
+      <label title="Dừng ngay khi gặp token không giải mã được"><input type="checkbox" id="o-strict"> Nghiêm ngặt khi giải mã</label>
+    </div>
+  </div>
+
+  <div id="results"></div>
+
+  <footer>
+    Dòng lệnh tương đương: <code>python anonymize.py encrypt -i &lt;file&gt;</code> ·
+    <code>python anonymize.py decrypt -i &lt;file&gt;</code><br>
+    Bảng đối chiếu chứa dữ liệu gốc — bảo mật ngang với file <code>.env</code>.
+  </footer>
+
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let mode = 'encrypt';
+
+/* ---------- trạng thái khóa ---------- */
+async function checkKey() {
+  const el = $('status');
+  try {
+    const r = await fetch('/api/status').then(r => r.json());
+    if (r.ok) {
+      el.className = 'banner ok';
+      el.innerHTML = `✓ Đã nạp khóa từ <code>${r.env}</code>`;
+    } else {
+      el.className = 'banner err';
+      el.innerHTML = `✗ Chưa có khóa. Chạy <code>python anonymize.py genkey</code> rồi tải lại trang.`;
+    }
+  } catch {
+    el.className = 'banner err';
+    el.textContent = '✗ Không kết nối được tới server.';
+  }
+}
+checkKey();
+
+/* ---------- chọn chế độ ---------- */
+for (const m of ['encrypt', 'decrypt']) {
+  $('m-' + m).onclick = () => {
+    mode = m;
+    $('m-encrypt').setAttribute('aria-pressed', m === 'encrypt');
+    $('m-decrypt').setAttribute('aria-pressed', m === 'decrypt');
+  };
+}
+
+/* ---------- kéo thả (HTML5 Drag & Drop) ---------- */
+const drop = $('drop'), input = $('file');
+
+drop.onclick = () => input.click();
+drop.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); input.click(); } };
+input.onchange = () => { handle([...input.files]); input.value = ''; };
+
+for (const ev of ['dragenter', 'dragover']) {
+  drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.add('over'); });
+}
+for (const ev of ['dragleave', 'drop']) {
+  drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.remove('over'); });
+}
+drop.addEventListener('drop', (e) => {
+  const files = [...(e.dataTransfer?.files ?? [])];
+  if (files.length) handle(files);
+});
+// chặn trình duyệt mở file khi thả trượt ra ngoài vùng
+for (const ev of ['dragover', 'drop']) {
+  window.addEventListener(ev, (e) => { if (!drop.contains(e.target)) e.preventDefault(); });
+}
+
+/* ---------- xử lý ---------- */
+async function handle(files) {
+  for (const f of files) await processOne(f);
+}
+
+async function processOne(file) {
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.innerHTML = `<div class="head">
+      <span class="name">${esc(file.name)}</span>
+      <span class="spacer"></span>
+      <span class="badge mut">Đang xử lý…</span>
+    </div>`;
+  $('results').prepend(card);
+
+  const qs = new URLSearchParams({
+    mode,
+    name: file.name,
+    mapping: $('o-mapping').checked ? '1' : '0',
+    normalize: $('o-normalize').checked ? '1' : '0',
+    strict: $('o-strict').checked ? '1' : '0',
+  });
+
+  let res;
+  try {
+    res = await fetch('/api/process?' + qs, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/octet-stream' },
+      body: file,
+    }).then(r => r.json());
+  } catch (e) {
+    res = { ok: false, error: String(e) };
+  }
+  render(card, file, res);
+}
+
+function render(card, file, res) {
+  if (!res.ok) {
+    card.className = 'card bad';
+    card.innerHTML = `<div class="head">
+        <span class="name">${esc(file.name)}</span>
+        <span class="spacer"></span><span class="badge bad">Lỗi</span>
+      </div>
+      <div class="body"><div class="err-msg">${esc(res.error)}</div></div>`;
+    return;
+  }
+
+  const verb = res.mode === 'encrypt' ? 'đã mã hóa' : 'đã giải mã';
+  const head = document.createElement('div');
+  head.className = 'head';
+  head.innerHTML = `<span class="name">${esc(res.filename)}</span>
+      <span class="badge">${res.count} giá trị ${verb}</span>
+      <span class="badge mut">${fmtSize(res.size_out)}</span>
+      <span class="spacer"></span>`;
+
+  const dl = mkButton('Tải file về', () => save(res.data, res.filename));
+  head.appendChild(dl);
+  if (res.mapping) {
+    head.appendChild(mkButton('Bảng đối chiếu', () => save(res.mapping, stem(res.filename) + '.mapping.csv'), true));
+  }
+
+  const body = document.createElement('div');
+  body.className = 'body';
+  if (res.before !== null && res.after !== null) {
+    body.innerHTML = `<div class="diff">
+        <div><h4>Trước</h4><pre>${esc(res.before)}</pre></div>
+        <div><h4>Sau</h4><pre>${esc(res.after)}</pre></div>
+      </div>`;
+  } else {
+    body.innerHTML = `<div class="sub" style="color:var(--muted);font-size:13px">
+        File bảng tính đã được xử lý trên mọi sheet, giữ nguyên định dạng.</div>`;
+  }
+  if (res.samples?.length) {
+    const rows = res.samples.map(s =>
+      `<tr><td>${esc(s.original)}</td><td class="arrow">→</td><td>${esc(s.token)}</td></tr>`).join('');
+    body.insertAdjacentHTML('beforeend',
+      `<table class="samples"><thead><tr><th>Gốc</th><th></th><th>Kết quả</th></tr></thead><tbody>${rows}</tbody></table>`);
+  }
+
+  card.className = 'card';
+  card.replaceChildren(head, body);
+  save(res.data, res.filename);   // tự động tải về ngay
+}
+
+/* ---------- tiện ích ---------- */
+function mkButton(label, onClick, ghost = false) {
+  const b = document.createElement('button');
+  b.className = 'dl' + (ghost ? ' ghost' : '');
+  b.textContent = label;
+  b.onclick = onClick;
+  return b;
+}
+
+function save(b64, filename) {
+  const bin = atob(b64);
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  const url = URL.createObjectURL(new Blob([bytes], { type: 'application/octet-stream' }));
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 2000);
+}
+
+const esc = (s) => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const stem = (n) => n.replace(/\.[^.]+$/, '');
+const fmtSize = (n) => n < 1024 ? n + ' B' : n < 1048576 ? (n / 1024).toFixed(1) + ' KB' : (n / 1048576).toFixed(1) + ' MB';
+</script>
+</body>
+</html>

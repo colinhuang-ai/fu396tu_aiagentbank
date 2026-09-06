@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+map.csv
+*.enc.*
+__pycache__/
+*.pyc
