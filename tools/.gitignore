@@ -5,3 +5,6 @@ map.csv
 *.enc.*
 __pycache__/
 *.pyc
+.scratch_path
+*.mapping.csv
+.organize-journal.jsonl

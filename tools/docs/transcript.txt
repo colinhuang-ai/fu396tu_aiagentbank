@@ -1,0 +1,427 @@
+0:01 - Nika@MARIO
+Okay, that's me. Thank you so much. Okay. All right. I'm just going to be a fly in the wall and we'll chime in if there's any like suggestions I feel like that would be helpful. But yeah, go ahead, Jamie. You can share with the team what you want interface wise for the software. His email ss phan@marioeducation.com
+
+0:20 - SPH Student Supp. Serv.
+So, I guess I'm not understanding how some of the teachers are getting added to the assistant role since we kind of had deleted all of the teachers out of that role. And you had mentioned that they had just recently been assigned as an assistant teacher, but I'm not exactly sure who assigned them and how. My question that I think we wanted to discuss is. How non-homeroom teachers can access and do these one-on-one conversations.
+
+ And if it's using their QR code or whether it's having somebody assigned as the assistant teacher, what would be the system and how would we want to have that look like on our campus? Without having to do bulk rosters and assign roles and everything, which is what we were trying to get away from And also avoid that if they're assigned that role, then next year when they get new homeroom teachers, then those teachers get carried over and they're no longer the homeroom teachers.
+
+ And then they're assigned to the wrong students in the wrong grade levels. How does that look? I think that's a whole compounded bunch of information in one.
+
+1:43 - Nika@MARIO
+Okay, before we continue, there is one teacher that I accidentally assigned an assistant role, and that is Diano, I believe. The reason being was Irina said she was assigned as. An assistant teacher to this student, and she wanted to be removed. In order for me to remove Zarina, I had to choose a teacher to move the data to. So I chose Daiano. What I didn't realize was the moment I chose Dayano, it assigned him an assistant role as well.
+
+ So he's both the main teacher and the assistant teacher of that student. I don't think it matters technically because it's just we're ensuring that the data carries over. But if you're wondering why Diana has an assistant teacher, bro, that was my fault. Well, not really by fault, but that's what happened. But other than that, Colin and Rose, would you have anything to share about like assistance and whatnot?
+
+
+
+2:53 - Colin Huang
+Yeah, actually. The assistant I have written in the email that have a die recently using the CFV upload.
+
+3:08 - Unidentified Speaker
+Yeah.
+
+3:10 - Colin Huang
+And I see I think the CFV upload is done by Rose right.
+
+3:18 - Colin Huang
+Maybe.
+
+3:20 - Unidentified Speaker
+Let me check it again.
+
+3:21 - Colin Huang
+Yeah, but the CFV is from SPH school. So actually when we see because when the assistant column in the CF is filled with the email, then we import it to Mario for me.
+
+3:41 - SPH Student Supp. Serv.
+So who sent a CSV file to you to upload?
+
+3:47 - Colin Huang
+yeah wait me uh wait wait me a little um I think maybe uh maybe wrong column uh sometime because if you do not do not add the email teacher to the column assistant so that it's it's not appear in mario for me yeah but because in the c at v in the CF, there are columns that have a system.
+
+4:23 - Colin Huang
+I share my email and can you send.
+
+4:30 - Nika@MARIO
+I think that might make sense because there are like all the roles are in one column. And I think you assign a number. Is that right, Colin? If you assign a number, it assigns the role. But Colin is right, maybe there was an additional role or whatnot that happened. We don't know, but Rose will check.
+
+4:52 - Unidentified Speaker
+Okay.
+
+4:52 - SPH Student Supp. Serv.
+Yeah, I think we can check it later.
+
+4:55 - Colin Huang
+But can you tell us about the role of assistance? Support teacher, teacher homeroom, and counselor. Yeah.
+
+5:17 - Rose Trịnh
+Yeah, actually, I I've checked my email and I have not received any CFB from SPH. So I think about the aside teacher for student, some students do it. Log in QR code and select teacher, right?
+
+5:40 - SPH Student Supp. Serv.
+You're saying that a student might have added that through a QR code?
+
+5:46 - Rose Trịnh
+Yeah, but from when student log in through via QR code, the teacher can select teacher and counselor and student cannot select. Yeah, a student cannot select. Assistant and support teacher. So I think assistant can be add by admin or maybe any admin import via CFB. But in your school, I think, do you think any admin can import CFB?
+
+6:22 - SPH Student Supp. Serv.
+I'm the admin, so nobody has been adding anybody to any roles.
+
+6:29 - SPH Student Supp. Serv.
+So that's why I'm confused because we dissolved and we weren't using that. When students, what I understand, the students should be able to add teachers that they would like to do like check-ins or something through a QR code, but they actually can't. They can do only the teachers that are kind of assigned. It gives them a dropdown and it only limits the teachers that. They can see. So I'm not exactly sure how you can add, like, let's just say in Diano's case, there are students in his class.
+
+ The assistant Dallas. Now, Dallas just teaches Bible and he's the spiritual life coordinator. He would like to have connections and do conversations and log things with students, but he's in no way connected to any of the students. Except for students who take his Bible class. So I'm not sure how he's the assistant teacher for the few students in Diano's class, but I don't think he can actually log and start a one-on-one conversation with any student.
+
+ And no student can access through the QR code and connect with him.
+
+7:45 - Rose Trịnh
+Actually, about the Diano, I think Nicao. Explain about this, right?
+
+7:53 - Rose Trịnh
+About the one-to-one conversation now on educator or counselor that decided to the student can lock one-to-one conversation with the student.
+
+8:06 - Nika@MARIO
+Let's see. We only have, okay, so right now I don't see any assistant. Teachers anymore. Has that been removed? Is that the case?
+
+8:17 - Rose Trịnh
+Yeah, Colin removed own assistant. Okay.
+
+8:22 - Nika@MARIO
+Well, then what is the A
+
+8:24 - SPH Student Supp. Serv.
+So in, I'm impersonating Diano, and Diano has the T teacher, Diano, A, Irina Tan, and C. Nancy's the counselor.
+
+8:39 - Nika@MARIO
+So, yeah, Irina would be the assistant teacher, which is weird. I'm because I already removed her.
+
+8:48 - SPH Student Supp. Serv.
+Wait, and Dallas is for Zachary.
+
+8:52 - Nika@MARIO
+Which student is this, Jamie? Zachary Herwendo.
+
+8:57 - SPH Student Supp. Serv.
+It says that Dallas is the assistant teacher. Okay.
+
+9:04 - Unidentified Speaker
+No, no, we can actually.
+
+9:06 - Colin Huang
+we do not uh have removed any assistant teacher. Yeah, because uh Jeremy said that uh with after the discussion the current discussion so we do not remove any yes we we can remove all assistant teachers or support teachers um after we have a decision after this conversation.
+
+9:31 - Nika@MARIO
+but um I guess the big question is Colin and Rose is there anything that one turned these teachers into assistant teachers um and the second question is and correct me if I'm wrong jamie is how do we allow teachers like dallas be able to have these conversations um without necessarily being the teacher? Is that correct?
+
+9:57 - SPH Student Supp. Serv.
+Sorry, I lost my Zoom. Where is my Zoom?
+
+9:59 - Nika@MARIO
+Oh, there you are. Okay. So, all right. So, I think we have two things that we need to figure out. One is like, how did this become assistants? I'm sure it's a CSV thing or whatnot. And then, how do we have teachers like Dallas do one-to-one conversations? The second question I can shed a little bit more light. And Rose and Colin, correct me if I'm wrong. If we assign Dallas and other teachers a support teacher role/slash assistant, they would be able to do the one-to-one conversations with the student.
+
+ They will also be able to see the check-in data. But yeah, they basically will have access to the student and can have those one-to-one conversations with the student as well. The student can either request them, I believe, or they can request one with the student.
+
+11:03 - SPH Student Supp. Serv.
+Okay, but to assign the assistant role, you would not do that through a QR code. That would have to be through a CSV upload, and we would have to connect who the support teacher would be with the students that they may want to have. It wouldn't be something that they could do through a QR code that Dallas could just share and say, okay, I'm connecting with the student. Here's my QR code. Do something like that.
+
+
+
+11:32 - Nika@MARIO
+We don't need to do that actually. What we need to do is just add Dallas, and again, Rose and Colin, correct me if I'm wrong, add Dallas to the students. And if Dallas decides to log a one-to-one conversation with the student, it's just going to pull up everything for that student. All he needs is basically the student in front of him to have the conversation, and it should be fine. No QR code needed, no teacher code needed.
+
+
+
+11:58 - SPH Student Supp. Serv.
+okay, that's right.
+
+12:01 - Nika@MARIO
+Okay, I'm correct.
+
+12:03 - Rose Trịnh
+All right, so yes, as an admin, you can go to the Assai tab and select on student and Asi Dala for own student.
+
+12:14 - Nika@MARIO
+So, if you want Dallas only for like 11th graders, we can filter out the 11th graders and then assign Dallas to all the 11th graders. And if you have another teacher, who would like to do the ninth graders, we can do the same thing.
+
+12:30 - SPH Student Supp. Serv.
+Okay, but you can only have one assistant teacher.
+
+12:33 - Nika@MARIO
+No, no, you can have.
+
+12:35 - SPH Student Supp. Serv.
+Okay. Yeah.
+
+12:37 - Nika@MARIO
+So if like all your, like, let's say, Dallas and all your other specialist teachers be support teachers to have the conversation, that is entirely possible. Right? Rose and Colin, we have no limit. Just checking. Okay. There you go.
+
+12:52 - Unidentified Speaker
+Okay.
+
+12:54 - SPH Student Supp. Serv.
+So that answers. So they then I can add Dallas, I can add Dale, who's also the assistant associate principal, because they can do these one-on-one conversations. They would have access to all high school students, let's say, and they would be considered the assistant teacher in there and stuff. But somebody like Irina, who is actually a homeroom teacher for the 12th grade. She would be then, we could remove her off of the assistant teacher for this particular students and stuff.
+
+ And so that's how we can kind of do that.
+
+13:32 - Unidentified Speaker
+Absolutely.
+
+13:33 - Nika@MARIO
+The only thing is, we need to make sure that there is already an assistant teacher assigned or support teacher, however we want to call it. So Dallas and the specialist teachers need to be assigned first to that assistant role because. Once Irina is removed, they're going to ask, Who do you want to transfer the data to? And that's what happened with Dayano. Because, like, I don't know, there was no other teacher.
+
+ So, I chose Dayano. And then he became an assistant teacher because of that. Yeah, well, so that's the best way to do it. And then that way, any other homeroom teacher who needs to be removed can the data can be transferred to another support teacher.
+
+14:13 - SPH Student Supp. Serv.
+Okay. Yeah.
+
+14:15 - Rose Trịnh
+Jeremy, I think you can turn on the sharing screen so that you can get more.
+
+14:25 - Nika@MARIO
+Okay, do you want to do that, Colin? Do you want to share your screen so we can?
+
+14:30 - Rose Trịnh
+Yeah, I can share my screen.
+
+14:33 - Nika@MARIO
+Okay, thank you, Rose.
+
+14:35 - Rose Trịnh
+But I need to ascend. Oh. Oh.
+
+14:42 - SPH Student Supp. Serv.
+Okay, I think be able to now.
+
+14:46 - SPH Student Supp. Serv.
+Let me try it again.
+
+14:48 - Rose Trịnh
+Okay.
+
+14:53 - Rose Trịnh
+And I will open it.
+
+14:58 - Rose Trịnh
+Let me turn it off.
+
+15:17 - Rose Trịnh
+And I'm in me now. And as you can see, I can go to user tabs and both side students.
+
+15:34 - Rose Trịnh
+Okay. In the user list, I oh, let me turn it off.
+
+15:44 - Rose Trịnh
+How to turn In the user list, I see a number of admin of admin and maybe one of them can import CIDB, right?
+
+16:14 - SPH Student Supp. Serv.
+see, some of these are leftover from before, like Amy, she's actually at Centool. She's not at my campus. I don't know who Elizabeth Konanaya is. Fanny Ku is also at a different campus. So these are leftover from when we were all Greg Thompson, Glenn, Crane, they're not at my campus.
+
+16:39 - Rose Trịnh
+Oh, so it's in your campus. Only you is at me.
+
+16:44 - SPH Student Supp. Serv.
+Me and Brianna and Dale Wood.
+
+16:47 - Nika@MARIO
+Yeah. And Crystal is in Pluid, right? Oh, yeah, she's already inactive. Yeah.
+
+16:52 - SPH Student Supp. Serv.
+Yeah. I think that was the tricky bit with the five campuses.
+
+16:57 - Nika@MARIO
+We weren't sure who was where. So we can clean that up. No worries. We just need to know who belongs where. I know Glenn is. Yeah.
+
+17:06 - SPH Student Supp. Serv.
+Yeah, Glenn's at LV. So I can also go in and clean that up easy. So okay. To use the filters and figure out because otherwise there's pages and pages and I okay.
+
+17:23 - Unidentified Speaker
+Okay.
+
+17:24 - Rose Trịnh
+Back to the sideways. This is Osai. So yeah, if you want to aside the last to the 11th grade. You can further 11 here and select all students.
+
+17:45 - Unidentified Speaker
+Can I turn it off? Yeah, okay.
+
+17:51 - Rose Trịnh
+Just have 19 students and we can select on here and assign Dalai Sugbi teacher of all students, right? I'm sorry, that's the Dalat should be teacher of all students in grade 11. He's support teacher.
+
+18:13 - Nika@MARIO
+Okay, you can select here and select Dalat for yeah, but we need to add him first, right?
+
+18:20 - Rose Trịnh
+Yeah, we need to ask him first, and the same for other grades.
+
+18:28 - Nika@MARIO
+I do have a question, Jamie, because the assistant and support teacher work the same way. Both will have access to one-to-one conversations with the student. Would you like Dallas and other teachers to be an assistant teacher or a support teacher? There's not a big difference, really, other than label. Am I correct?
+
+18:49 - Rose Trịnh
+Rose and college. Yeah, it's correct. Okay.
+
+18:53 - SPH Student Supp. Serv.
+so but the permissions are exactly the same as a homeroom teacher yeah they just are listed actually actually homeroom teacher can be off students create as a as a safe I'm sorry I didn't hear that let me let me share the screen again okay maybe uh we have teacher demo.
+
+19:27 - Rose Trịnh
+I will open the teacher site and the student list in the student list. As you can see, the teacher new student. Add new student meaning you can add a new account that not exist in the system yet. And you can add the student to the system and the student will be. Belong to the student list here. So, for the teacher, maybe homeroom teacher can add new students, but about the counselor and support teacher, they cannot add new students.
+
+
+
+20:03 - Nika@MARIO
+Yeah, thank you for clarifying that. So, yeah, I Okay.
+
+20:12 - Unidentified Speaker
+Yep.
+
+20:13 - SPH Student Supp. Serv.
+I guess it doesn't really matter. The assistant teacher sounds to me good. But yeah, if it doesn't, the role doesn't matter. We just are using it as the designation for somebody else who's coming in to like assist with maybe some of those conversations or something. I don't have an issue. What I want to confirm again is, though, like, let's say we've identified these people. I know how you are showing me that I can assign them, but you just found the problem.
+
+ How do I get Dallas to be in the dropdown so that I can choose him? Sign up.
+
+20:59 - Unidentified Speaker
+We have to listen to sign up first. Yeah, go ahead, Rose.
+
+21:04 - Rose Trịnh
+Yeah, please add the Dallas to the system. Now he is not in the system, right?
+
+21:09 - SPH Student Supp. Serv.
+Why he is. He's considered to be an assistant teacher for these couple students in Diana's class. This one student is already in here.
+
+21:21 - SPH Student Supp. Serv.
+And those ones that you showed that were in the drop-down list. Yeah, see, there's Dallas.
+
+21:29 - Rose Trịnh
+yeah so we can add the wrong support teacher to him oh I see and save and when you select student here maybe uh this student you can select him here the last right yeah or it uh you can also uh select own way I see and assign him in here Okay.
+
+21:59 - SPH Student Supp. Serv.
+Okay.
+
+22:01 - SPH Student Supp. Serv.
+So now, if I wanted to get rid of Irina that's in there on the Diano's assistant, because she actually isn't working with these 11th graders, I need to make that switch so that it's Irina for Dallas.
+
+22:21 - Nika@MARIO
+Okay, so Rose, would you be able to show Jamie how to make that switch from arena to Dallas, please? Arena?
+
+22:30 - Rose Trịnh
+So, like, Hanju.
+
+22:35 - Rose Trịnh
+Oh, E starts with an E. E. Yeah.
+
+22:40 - Nika@MARIO
+So if you go back to the 11th graders, yes. So this teacher is assigned as an assistant teacher to 11th graders from the previous window.
+
+22:55 - Rose Trịnh
+Yeah, we need to add assistant role. Oh, no, no, no.
+
+22:58 - Nika@MARIO
+We don't need to. We don't need to.
+
+23:01 - Unidentified Speaker
+She doesn't need to be an assistant teacher. She just needs to be a teacher. Except the problem is.
+
+23:06 - Nika@MARIO
+she's an assistant teacher for 11th graders, and we don't want her to be an assistant teacher.
+
+23:12 - SPH Student Supp. Serv.
+And she's already been assigned as an assistant teacher. So, yeah.
+
+23:17 - Nika@MARIO
+Okay, we need to remove Irina from the assistant, right? Yes, from all the 11th graders.
+
+23:24 - Rose Trịnh
+We cannot remove because we need another assistant to transfer data. Yes, I think we can hand. We can henry in the database and we can remove own assistant in the database for you. It's okay.
+
+23:43 - Nika@MARIO
+Could we not, Rose? So, because she's only in the 11th grader as an assistant, could we not do remove bulk and then assign it to Dallas since Dallas will be working with them anyway?
+
+23:56 - Rose Trịnh
+So, Dallas will be assistant of own? Yeah.
+
+23:59 - SPH Student Supp. Serv.
+well that's what I'm thinking I need to to confirm with him but my question here is is why is arena showing up as assistant teacher when in her profile she's not checked as an assistant teacher yeah I don't I don't know why that is well uh we need to check it again actually because it is imparted icb so we do not check in Do you want to just could we just possibly remove all the assistant emails for now, assistant teachers, and then that way Jamie can assign manually?
+
+
+
+24:39 - Nika@MARIO
+Would that be better?
+
+24:44 - SPH Student Supp. Serv.
+That would work for me. And here's the other strange thing, Ms. Rose, is that if you go to Arena. She doesn't show any of these 11th graders on her roster, even though she's showing up as the 11th grade assistant teacher, but none of these students in 11th grade show up on her roster.
+
+25:11 - Nika@MARIO
+Irina, okay?
+
+25:13 - SPH Student Supp. Serv.
+Yeah, if you go in and you impersonate Irina, you won't see any of these 11th graders on her roster.
+
+25:22 - Rose Trịnh
+okay uh because uh because actually she she's an not a system so when she logged in when she logged in she only had a teacher but in the you know in the user list you can see she assigned a assistant for all the students of the 11th grade.
+
+25:56 - SPH Student Supp. Serv.
+Yeah, I just thought it was weird. And now she's got the assistant teacher is Diano, but Diano doesn't have any of these 12th grade.
+
+26:04 - Rose Trịnh
+Yeah, I know in the park because when we import CFP, we do not check the wrong area.
+
+26:12 - Colin Huang
+We only import into our system.
+
+26:16 - Unidentified Speaker
+Okay. Okay.
+
+26:18 - SPH Student Supp. Serv.
+So you updated with the CSV at the beginning of the year to have all of the students in ready to go, right?
+
+26:27 - Nika@MARIO
+Yeah, I'm wondering too if, because at the beginning of the year, every August, everything resets. Like the kids are still there, the teachers are still there, but the assignments are taken away because then you have the chance to. To assign the students to their next teacher. I'm just wondering if Diano and Irina were assistants last year. Yeah. Well, it could have carried over, and that's why. Like, I don't know.
+
+ So, I'm you, Rose Colin are the experts. I'm just imagining.
+
+27:05 - Colin Huang
+Yeah, I checked the data by the assistant role were at.
+
+27:11 - Unidentified Speaker
+recently. Yeah.
+
+27:17 - Unidentified Speaker
+Yeah.
+
+27:20 - SPH Student Supp. Serv.
+I so I guess moving forward, if we could remove all assistant teachers, if you would do that. And then I will just add. So, if Dallas is going to be one who wants to do these connections, then I can add him to the grade levels that he's wanting. And the other people who have approached me and said, I would love to be doing some conversations with students, then I can add those people manually as assistant teachers and then assign them to the grade levels or particular students.
+
+ Otherwise, we won't have. Any of our homeroom teachers as assistant teachers at all. These would only be teachers who are not already assigned as a homeroom teacher.
+
+28:06 - Nika@MARIO
+Is that doable? Rose and Colin, we can do that right. Yeah.
+
+28:10 - Unidentified Speaker
+Okay. Okay.
+
+28:14 - Nika@MARIO
+All right. Perfect.
+
+28:15 - SPH Student Supp. Serv.
+I think we'll try this because, like I said, people have approached and said, I would love to be doing some of these. How is the best way to do it? So now we have the system in place and it won't be confusing, especially for me or to see assistant teachers on that should be associated.
+
+28:35 - Nika@MARIO
+So I think the decision is does. You want assistant or support, and which assistant or support teacher is doing what grade level. And that should be easy enough to figure out. Yeah.
+
+28:46 - SPH Student Supp. Serv.
+Perfect. That's so helpful. Thank you.
+
+28:49 - Nika@MARIO
+I knew sitting down here would help and not have to go through the emails back and forth.
+
+28:54 - SPH Student Supp. Serv.
+So I really appreciate all of the support and help and clarification.
+
+28:58 - Nika@MARIO
+No worries. You're most welcome. Rose and Colin, thank you so much for jumping on the call. That really helps. And Jamie, hopefully, we've sorted everything out. And if there are any, like, if you want to change your mind in terms of like, oh, we want them a support instead of assistant, just let us know and we'll help sort it out.
+
+29:18 - Unidentified Speaker
+Okay.
+
+29:18 - SPH Student Supp. Serv.
+Just let me know when all of those are cleared, and then I will, in the meantime, I will be checking to find out who I will be adding and we'll go from there.
+
+29:27 - Nika@MARIO
+Okay, cool. Have a great day. Thank you so much.

@@ -1,0 +1,10 @@
+# Bat buoc
+cryptography>=42.0      # AES-SIV (RFC 5297)
+
+# Tuy chon - chi can khi xu ly dinh dang tuong ung
+openpyxl>=3.1           # .xlsx .xlsm
+python-docx>=1.1        # .docx
+pypdf>=4.0              # .pdf
+
+# CSV / TSV / TXT / JSON, transcript (.vtt .srt) va thu (.eml)
+# dung thu vien chuan cua Python - khong can cai them gi.
